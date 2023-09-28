@@ -13,6 +13,8 @@ enterButton.addEventListener("click", function() {
 	
     
     // Replace the p tag with the new h1 tag
+	 statusParagraph.innerHTML="";
+	statusParagraph.appendChild(newHeading);
 	
-    statusParagraph.parentNode.replaceChild(newHeading, statusParagraph);
+    // statusParagraph.parentNode.replaceChild(newHeading, statusParagraph);
 });
