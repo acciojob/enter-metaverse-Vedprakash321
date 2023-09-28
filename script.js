@@ -7,11 +7,12 @@ const enterButton = document.getElementById("enterBtn");
 enterButton.addEventListener("click", function() {
     // Create a new h1 element
     const newHeading = document.createElement("h1");
-    
+    newHeading.id="status";
     // Copy the text and attributes from the p tag to the new h1 tag
     newHeading.innerText="Entered Metaverse";
 	
     
     // Replace the p tag with the new h1 tag
+	
     statusParagraph.parentNode.replaceChild(newHeading, statusParagraph);
 });
