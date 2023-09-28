@@ -9,7 +9,8 @@ enterButton.addEventListener("click", function() {
     const newHeading = document.createElement("h1");
     
     // Copy the text and attributes from the p tag to the new h1 tag
-    newHeading.textContent = statusParagraph.textContent;
+    newHeading.innerText="Entered Metaverse";
+	
     
     // Replace the p tag with the new h1 tag
     statusParagraph.parentNode.replaceChild(newHeading, statusParagraph);
